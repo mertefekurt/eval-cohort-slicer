@@ -1,0 +1,3 @@
+{"id":"a","score":0.9,"passed":true,"metadata":{"language":"en"}}
+{"id":"b","score":0.4,"passed":false,"metadata":{"language":"tr"}}
+{"id":"c","score":0.7,"passed":true,"metadata":{"language":"tr"}}
