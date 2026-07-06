@@ -1,12 +1,12 @@
 # Eval Cohort Slicer
 
-Slice evaluation JSONL by a cohort field so weak segments do not disappear inside aggregate scores.
-
 ![Eval Cohort Slicer cover](assets/readme-cover.svg)
 
-## Example
+## Working map
 
-The sample data includes `metadata.language`; slice it to compare English and Turkish cases.
+![Workflow diagram](assets/readme-diagram.svg)
+
+## Command line
 
 ```bash
 git clone https://github.com/mertefekurt/eval-cohort-slicer.git
@@ -16,6 +16,13 @@ eval-cohort-slicer examples/eval.jsonl --by language
 eval-cohort-slicer examples/eval.jsonl --by language --json
 ```
 
-## Output idea
+## Useful details
 
-The table is meant for quick review; JSON is meant for notebooks, dashboards, or CI artifacts.
+Eval Cohort Slicer focuses on one practical job in model evaluation. The README below is arranged around the shortest path from clone to result.
+
+| Detail | Value |
+| --- | --- |
+| Area | model evaluation |
+| Entry | `eval-cohort-slicer` |
+| Input | JSONL records |
+| Output | readable terminal output |
